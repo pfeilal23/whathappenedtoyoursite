@@ -126,6 +126,12 @@ table {
   }
   @media(min-width: 992px){
     .container{
-        max-width: 800px;
+        max-width: 600px;
     }
+  }
+  li:nth-child(odd) {
+    font-weight: bold;
+  }
+  li:nth-child(even) {
+    font-style: italic;
   }
